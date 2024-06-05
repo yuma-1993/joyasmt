@@ -1,0 +1,65 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-image: url(../assets/fondo.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex: 1;
+    margin: 10px;
+}
+
+.active {
+    background-color: #4a5568;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.active:hover {
+    background-color: #2d3748;
+}
+
+// Logo
+.logo {
+    width: 10%;
+}
+
+.bienvenida {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.joya {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none; /* Eliminar subrayado */
+    color: inherit; /* Heredar el color del texto */
+}
